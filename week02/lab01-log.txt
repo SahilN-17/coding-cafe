@@ -1,0 +1,65 @@
+    1  python3 test.py
+    2  python3 --version
+    3  python -c "print('Hello, coding cafe')"
+    4  pyhon3 -c "print('Hello')"
+    5  python3 -c "print('hello')"
+    6  cd
+    7  echo $SHELL
+    8  pwd
+    9  1s
+   10  ls
+   11  ls -a
+   12  ls -l
+   13  pwd
+   14  ls
+   15  mkdir coding-cafe
+   16  ls
+   17  pwd
+   18  mkdir/home/sahil/coding-cafe/week01
+   19  pwd
+   20  mkdir /home/sahil/coding-cafe/week01
+   21  ls
+   22  ls coding-cafe/
+   23  mkdir /coding-cafe/week02
+   24  mkdir /sahil/week02
+   25  mkdir coding-cafe/week02
+   26  ls
+   27  ls coding-cafe/
+   28  cd coding-cafe
+   29  ls
+   30  touch README.md
+   31  ls
+   32  ls -l
+   33  man ls
+   34  mkdir coding-cafe/week02/notes.md
+   35  mkdir week02/notes.md
+   36  ls week02
+   37  pwd
+   38  ls
+   39  cd-
+   40  cd~
+   41  pwd
+   42  echo $HOME
+   43  pwd
+   44  cd
+   45  pwd
+   46  ls
+   47  cd coding cafe
+   48  cd/home/sahil/coding-cafe
+   49  home/sahil/coding-cafe
+   50  /home/sahil/coding-cafe
+   51  ls -l
+   52  ls -l coding-cafe
+   53  touch coding-cafe/week02/notes.md
+   54  ls -l coding-cafe/week02
+   55  ls -a
+   56  nano coding-cafe/week02/notes.md
+   57  ls
+   58  pwd
+   59  history > week02/lab01-log.txt
+   60  pwd
+   61  ls
+   62  dir
+   63  cd week02
+   64  pwd
+   65  history > coding-cafe/week02/lab01-log.txt

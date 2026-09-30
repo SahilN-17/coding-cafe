@@ -1,0 +1,65 @@
+ Coding Cafe - Lab 1 Answers
+
+ 1. Where did `pwd` print?
+
+`pwd` printed `/home/sahil`. This is my home directory in WSL.
+
+ 2. What did `ls -a` show that plain `ls` did not?
+
+`ls -a` also showed hidden files and directories whose names start with a dot, such as `.bashrc` and `.profile`. Plain `ls` does not normally show these hidden entries.
+
+ 3. What does the first column of `ls -l` mean?
+
+The first column shows the file type and permissions. It tells me whether the item is a file or directory and who can read, write, or execute it.
+
+ 4. Why does `ls coding-cafe/week02` work? Absolute or relative?
+
+It works because `coding-cafe/week02` starts from my current directory and describes the path from there. It is a relative path, not an absolute path.
+
+ 5. What two different jobs did `mv` do?
+
+First, `mv` moved `README-backup.md` from the current directory into `week01`. Then it renamed `README-backup.md` to `old-readme.md` while it was inside `week01`.
+
+ 6. How many folders are on your `PATH`?
+
+My `PATH` has approximately 13 folders, separated by colons. The exact number can vary depending on the WSL setup and installed software.
+
+ 7. Where does your `python3` live?
+
+`python3` is located at `/usr/bin/python3`. This is the Python executable found by the shell through my `PATH`.
+
+ 8. Are your Python paths the same as the person next to you?
+
+They may not be the same because different computers can have different Linux distributions, Python installations, or PATH configurations. Even if both systems have Python 3, the executable can be installed in different locations.
+
+ 9. What did `pyton3` say?
+
+The shell said `pyton3: command not found`. This happened because `pyton3` is a typo and there is no executable with that name in any folder listed in my `PATH`.
+
+ 10. Why did `.venv` not appear with plain `ls`?
+
+`.venv` is a hidden directory because its name starts with a dot. Plain `ls` hides such entries, while `ls -a` shows them.
+
+ 11. What changed about your prompt after activation?
+
+The prompt changed to show `(.venv)` at the beginning. This indicates that the Python virtual environment is active.
+
+ 12. Is the `which python3` path the same inside and outside `.venv`?
+
+No, it is different. Inside the virtual environment, `PATH` is changed so that the virtual environment's Python is found first.
+
+ 13. What is in the second `pip list` that was not in the first?
+
+The `requests` package and its dependencies appear in the second list because I installed `requests` while the virtual environment was active.
+
+ 14. Where does `python3` point after `deactivate`?
+
+After `deactivate`, `python3` points back to the system Python, which is `/usr/bin/python3`.
+
+ 15. What does `ls -h` do?
+
+`ls -h` makes file sizes easier for humans to read when used with the long listing option, showing sizes using units such as KB, MB, or GB instead of only raw byte counts.
+
+ 16. What is the difference between Ctrl+C and Ctrl+D?
+
+Ctrl+C interrupts the currently running command or program. Ctrl+D sends an end-of-input signal, which in the Python prompt causes it to exit when there is no more input.
